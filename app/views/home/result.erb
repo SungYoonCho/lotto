@@ -1,0 +1,29 @@
+<section>
+  <h1>확인하세요!</h1>
+  <h2>나의 랜덤로또번호</h2>
+    <p><%= @pick_number %></p>
+  <h2>이번 주 로또번호</h2>
+    <p><%= @drwt %></p>
+  <h2>보너스번호</h2>
+    <p><%= @bnus %></p>
+  <h2>겹치는 번호</h2>
+    <p><%= @winning_number %></p>
+  
+  <h2>당첨결과</h2>
+    <% case @winning_count %>
+    <% when 6 %>
+      <p><%= "1st입니다" %></p> 
+    <% when 5 %>
+      <% if @pick_number.include?@bnus[0] %>
+        <p><%= "2nd입니다" %></p>
+      <% else %> 
+        <p><%= "3rd입니다" %></p>
+      <% end %>
+    <% when 4 %>
+      <p><%= "4th입니다" %></p>
+    <% when 3 %>
+      <p><%= "5th입니다" %></p>
+    <% else %>
+      <p><%= "꽝입니다" %></p>
+    <% end %>
+</section>
