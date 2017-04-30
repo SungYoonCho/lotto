@@ -1,6 +1,24 @@
-section {
-    text-align: center;
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+#second {
+    background: url("http://www.trcanada.com/files/attach/images/212664/543/578/28631adaaa411c56e9b52cd7124410fc.jpg");
+    background-size: cover;
 }
+
+
+#sec {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 200px;
+}
+
 p {
+    font-size: 20px;
     font-weight: bold;
+    color: #ffee02;
+}
+
+#second_box {
+    background-color: rgba(66, 66, 66, 0.7);
 }

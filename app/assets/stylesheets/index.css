@@ -6,29 +6,34 @@ header {
     top: 100px;
 }
 
-div {
+div h1 {
+    font-family: 'Jeju Gothic', serif;
+}
+div h2 {
+    font-family: 'Jeju Gothic', serif;
+}
+
+#first {
     text-align: center;
     position: relative;
     top: 200px;
-}
-.container {
     background-color: rgba(66, 66, 66, 0.7);
     height: 300px;
 }
 
-div h1 {
-    color: white;
-    position: relative;
-    top: 70px;
-    
-}
-div h2 {
+.first_paragraph {
     color: white;
     position: relative;
     top: 70px;
 }
 
-div a {
+#press {
     position: relative;
     top: 70px;
 }
+
+
+
+
+
+
